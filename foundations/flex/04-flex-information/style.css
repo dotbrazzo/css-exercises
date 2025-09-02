@@ -1,10 +1,46 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-}
 
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-overflow: ellipsis;
+}
+.title {
+  justify-self: center;
+  align-self: center;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+.slike img {
+  display: flex;
+  height: auto;
+  width: 120px;
+  margin: 0;
+}
+div.text {
+  width: 200px;
+  column-count: 5;
+}
+.slike div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  height: auto;
+}
+.slike {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
 img {
-  width: 100px;
+  width: 200px;
   height: 100px;
+
 }
 
 .title {

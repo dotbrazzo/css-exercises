@@ -1,10 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display:flex;
+  flex-direction: column;
+  
+}
+
+* {
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25vh;
+  padding-bottom: 33vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Optional: to vertically align items */
+  padding: 20px;
+}
+.footer ul {
+  list-style-type: none; /* Remove bullets for footer links */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Optional: to vertically align items */
+  padding: 20px;
+  background-color: #eeeeee;
+}
+
+.footer .left-links {
+  list-style-position: inside; /* Optional: adjust bullet position */
+}
+
+.footer .right-links {
+  list-style-position: inside; /* Optional: adjust bullet position */
+}
+ul {
+  list-style-type: none;
+  padding-left: 20px; /* To add space from the left side for bullets */
+  margin: 0; /* Remove default margin */
+  display: flex;
+  gap: 20px;
 }
 
 img {
